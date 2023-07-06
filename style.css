@@ -1,4 +1,105 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
 *{
     margin: 0%;
     padding: 0%;
+    font-family: 'Poppins', sans-serif;
 }
+.menu{
+    display: flex;
+    background-color: #34505E;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu .left img{
+    width: 70px;
+    margin-left:40px ;
+    margin-bottom: -7px;
+}
+.menu .right{
+    display: flex;
+}
+.menu .right .menuItem{
+    margin-right:40px ;
+    font-weight: 500;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+.menu .right .menuItem:hover{
+    color: red;  
+    border-bottom: 1px solid red;
+}
+.banner{
+    background-image: url(./images/background.png);
+    background-color: #22343d;
+    padding: 50px;
+}
+.container img{
+    width: 500px;
+    margin: 30px;
+}
+.container .text{
+    color: white;
+    font-size: 28px;
+}
+.container .text p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.container .text p a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.color_text{
+    color: red;
+}
+.btn{
+    border: none;
+    padding: 10px 20px;
+    font-size:16px;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    transition: .5s;
+}
+.btn:hover{
+    color: red;
+    background-color: #b4a6a6;
+}
+.about h1{
+    text-align: center;
+    font-size: 34px;
+    margin-top: 30px;
+}
+.about img{
+    width: 400px;
+    margin-left: 40px;
+}
+.bio{
+    display: flex;
+    align-items: center;
+    margin-right: 190px;
+}
+.meter meter{
+    display: block;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 25px;
+    color: red;
+    
+}
+.skil_name li{
+    margin-top: 25px;
+    font-size: 25px;
+}
+/* .h1_btn{
+    margin-top: -1140px;
+
+} */
